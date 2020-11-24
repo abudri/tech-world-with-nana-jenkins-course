@@ -19,6 +19,7 @@ pipeline {
                 script {
                     gv.buildApp()
                 }
+                echo 'Application built'
             }
         }
         stage("test") {
